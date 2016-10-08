@@ -47,6 +47,7 @@ public class MemberController {
     @PostConstruct
     public void initNewMember() {
         newMember = new Member();
+        newMember.setName("Teste");
     }
 
     public void register() throws Exception {
